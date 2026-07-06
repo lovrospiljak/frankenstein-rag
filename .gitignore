@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Large vector databases (will be generated later)
+*.faiss
+*.index
+
+# Python cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
