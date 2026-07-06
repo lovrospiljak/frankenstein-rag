@@ -6,7 +6,7 @@ def load_sections(path):
         return json.load(f)
 
 
-def chunk_text(text, chunk_size=500, overlap=100):
+def chunk_text(text, chunk_size=250, overlap=50):
     """
     Splits text into overlapping word chunks.
     """

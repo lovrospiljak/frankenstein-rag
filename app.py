@@ -2,11 +2,14 @@ from parser.epub_parser import parse_epub
 from parser.save_json import save_sections
 from rag.chunker import load_sections, build_chunks
 from rag.save_chunks import save_chunks
+from rag.embeddings import embed_chunks
+from rag.save_embeddings import save_embeddings
 
 BOOK_PATH = "data/raw/Frankenstein.epub"
 
 SECTIONS_OUTPUT = "data/processed/sections.json"
 CHUNKS_OUTPUT = "data/processed/chunks.json"
+EMBEDDINGS_OUTPUT = "data/processed/embeddings.json"
 
 
 def main():
@@ -34,6 +37,11 @@ def main():
     # Step 5: Save chunks
     save_chunks(chunks, CHUNKS_OUTPUT)
     print(f"Saved chunks to {CHUNKS_OUTPUT}")
+
+    # Step 6: Embeddings
+    embeddings = embed_chunks(chunks)
+    print(f"Created {len(embeddings)} embeddings.")
+    save_embeddings(embeddings, EMBEDDINGS_OUTPUT)
 
 
 if __name__ == "__main__":
