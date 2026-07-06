@@ -4,6 +4,11 @@ from rag.chunker import load_sections, build_chunks
 from rag.save_chunks import save_chunks
 from rag.embeddings import embed_chunks
 from rag.save_embeddings import save_embeddings
+from rag.vector_store import (
+    build_index,
+    save_index,
+    save_lookup,
+)
 
 BOOK_PATH = "data/raw/Frankenstein.epub"
 
@@ -42,6 +47,21 @@ def main():
     embeddings = embed_chunks(chunks)
     print(f"Created {len(embeddings)} embeddings.")
     save_embeddings(embeddings, EMBEDDINGS_OUTPUT)
+
+    # Step 7: FAISS vector store
+    index = build_index(embeddings)
+
+    save_index(
+        index,
+        "data/processed/faiss.index",
+    )
+
+    save_lookup(
+        embeddings,
+        "data/processed/chunk_lookup.json",
+    )
+
+    print("FAISS index saved.")
 
 
 if __name__ == "__main__":

@@ -6,14 +6,15 @@ print(f"Loading embedding model: {MODEL_NAME}")
 model = SentenceTransformer(MODEL_NAME)
 
 
-import time
-
-
 def embed_chunks(chunks, batch_size=32):
+    """
+    Generates embeddings for all chunks using batch processing.
+    """
+
+    # Extract only the texts
     texts = [chunk["text"] for chunk in chunks]
 
-    start = time.time()
-
+    # Encode all texts in batches
     vectors = model.encode(
         texts,
         batch_size=batch_size,
@@ -22,11 +23,13 @@ def embed_chunks(chunks, batch_size=32):
         convert_to_numpy=True,
     )
 
-    print(f"\nEmbedding model took {time.time() - start:.2f} seconds")
-
     embeddings = []
 
-    for chunk, vector in zip(chunks, vectors):
+    # Combine metadata with vetors
+    for (
+        chunk,
+        vector,
+    ) in zip(chunks, vectors):
         embeddings.append(
             {
                 "chunk_id": chunk["chunk_id"],
@@ -35,5 +38,4 @@ def embed_chunks(chunks, batch_size=32):
                 "embedding": vector.tolist(),
             }
         )
-
     return embeddings
