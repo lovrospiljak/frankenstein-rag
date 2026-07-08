@@ -1,2 +1,8 @@
-ebooklib
 beautifulsoup4
+ebooklib
+faiss-cpu
+numpy
+python-dotenv
+requests
+sentence-transformers
+tqdm

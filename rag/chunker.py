@@ -1,47 +1,38 @@
-import json
+from textwrap import wrap
 
-
-def load_sections(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def chunk_text(text, chunk_size=250, overlap=50):
-    """
-    Splits text into overlapping word chunks.
-    """
-
-    words = text.split()
-    chunks = []
-    start = 0
-
-    while start < len(words):
-        end = start + chunk_size
-        chunk = " ".join(words[start:end])
-        chunks.append(chunk)
-        start += chunk_size - overlap
-
-    return chunks
+CHUNK_SIZE = 500
+CHUNK_OVERLAP = 100
 
 
 def build_chunks(sections):
-    all_chunks = []
-    chunk_id = 1
+    """
+    Split each story section into overlapping chunks.
+    """
+
+    chunks = []
+    chunk_id = 0
+
+    step = CHUNK_SIZE - CHUNK_OVERLAP
 
     for section in sections:
-        chunks = chunk_text(section["text"])
 
-        for i, chunk in enumerate(chunks):
-            all_chunks.append(
+        text = section["text"]
+
+        for start in range(0, len(text), step):
+
+            chunk_text = text[start : start + CHUNK_SIZE].strip()
+
+            if not chunk_text:
+                continue
+
+            chunks.append(
                 {
                     "chunk_id": chunk_id,
                     "section_id": section["section_id"],
-                    "chunk_index": i,
-                    "source_file": section["source_file"],
-                    "text": chunk,
+                    "text": chunk_text,
                 }
             )
 
             chunk_id += 1
 
-    return all_chunks
+    return chunks

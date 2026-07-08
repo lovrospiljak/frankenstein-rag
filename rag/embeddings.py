@@ -6,6 +6,15 @@ print(f"Loading embedding model: {MODEL_NAME}")
 model = SentenceTransformer(MODEL_NAME)
 
 
+def embed_text(text):
+    # Generate an embedding for a single text
+    return model.encode(
+        text,
+        normalize_embeddings=True,
+        convert_to_numpy=True,
+    )
+
+
 def embed_chunks(chunks, batch_size=32):
     """
     Generates embeddings for all chunks using batch processing.

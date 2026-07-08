@@ -1,5 +1,5 @@
 import re
-
+import json
 from ebooklib import epub
 from ebooklib import ITEM_DOCUMENT
 from bs4 import BeautifulSoup
@@ -64,3 +64,9 @@ def parse_epub(file_path):
         section_id += 1
 
     return sections
+
+
+def save_sections(sections, output_path):
+    """Save parsed sections to JSON."""
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(sections, f, ensure_ascii=False, indent=4)
