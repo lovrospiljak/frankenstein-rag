@@ -1,13 +1,16 @@
+# Third-party import
 from sentence_transformers import SentenceTransformer
 
+# Load the embedding model
 MODEL_NAME = "BAAI/bge-base-en-v1.5"
-
 print(f"Loading embedding model: {MODEL_NAME}")
+
 model = SentenceTransformer(MODEL_NAME)
 
 
 def embed_text(text):
-    # Generate an embedding for a single text
+    """Generate an embedding for a single text."""
+
     return model.encode(
         text,
         normalize_embeddings=True,
@@ -16,14 +19,12 @@ def embed_text(text):
 
 
 def embed_chunks(chunks, batch_size=32):
-    """
-    Generates embeddings for all chunks using batch processing.
-    """
+    """Generate embeddings for all text chunks."""
 
-    # Extract only the texts
+    # Extract the text from each chunk
     texts = [chunk["text"] for chunk in chunks]
 
-    # Encode all texts in batches
+    # Generate embeddings in batches
     vectors = model.encode(
         texts,
         batch_size=batch_size,
@@ -34,7 +35,7 @@ def embed_chunks(chunks, batch_size=32):
 
     embeddings = []
 
-    # Combine metadata with vetors
+    # Combine chunk metadata with the generated embeddings
     for (
         chunk,
         vector,
@@ -47,4 +48,5 @@ def embed_chunks(chunks, batch_size=32):
                 "embedding": vector.tolist(),
             }
         )
+
     return embeddings

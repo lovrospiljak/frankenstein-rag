@@ -1,8 +1,10 @@
 beautifulsoup4
 ebooklib
 faiss-cpu
+networkx
 numpy
 python-dotenv
 requests
 sentence-transformers
+spacy
 tqdm

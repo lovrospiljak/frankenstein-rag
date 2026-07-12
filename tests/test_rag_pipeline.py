@@ -1,8 +1,11 @@
 # ------------------------------------
-# RUN:
+# Test the complete Vanilla RAG pipeline.
+#
+# Run:
 # python -m tests.test_rag_pipeline
 # ------------------------------------
 
+# Local imports
 from llm.local import generate_answer
 
 from rag.prompt_builder import build_prompt
@@ -19,24 +22,28 @@ EMBEDDINGS_PATH = "data/processed/embeddings.json"
 
 
 def main():
+    """Test the complete Vanilla RAG pipeline."""
 
-    print("=== Frankenstein RAG Pipeline Test ===\n")
+    # Display the application header
+    print("=== Vanilla RAG Pipeline Test ===\n")
 
-    # Load FAISS index
+    # Load the vector index
     index = load_index(INDEX_PATH)
 
     # Load chunk metadata
     embeddings = load_json(EMBEDDINGS_PATH)
 
+    # Process user questions until the application is closed
     while True:
 
         question = input("Question (or 'exit'): ").strip()
 
+        # Exit the application
         if question.lower() in {"exit", "quit"}:
             print("\nAdios!")
             break
 
-        # Retrieve relevant chunks
+        # Retrieve the most relevant chunks
         chunks = search(
             question,
             index,
@@ -46,15 +53,16 @@ def main():
 
         print(f"\nRetrieved {len(chunks)} chunks.\n")
 
-        # Build RAG prompt
+        # Build the prompt for the language model
         prompt = build_prompt(
             question,
             chunks,
         )
 
-        # Generate answer
+        # Generate an answer using the local LLM
         answer = generate_answer(prompt)
 
+        # Display the generated answer
         print("\nAnswer:\n")
         print(answer)
         print("\n" + "=" * 80 + "\n")

@@ -1,9 +1,11 @@
+# Standard library import
 import json
 
 
 def save_json(data, output_path):
+    """Save data to a JSON file."""
 
-    # Save any Python object as formatted JSON
+    # Write the JSON file
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(
             data,
@@ -14,7 +16,8 @@ def save_json(data, output_path):
 
 
 def load_json(path):
+    """Load data from a JSON file."""
 
-    # Load JSON from disk
+    # Read the JSON file
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)

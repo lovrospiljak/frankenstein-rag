@@ -1,28 +1,40 @@
-import requests  # HTTP requests
+# Third-party imports
+import requests
 
+# Local imports
 from config import OLLAMA_MODEL, OLLAMA_URL
 
+# ---------------------------------------
+# Generate response using the local LLM.
+# ---------------------------------------
 
-# This file only talks to the LLM
-# Sends a prompt to the local Ollama model
+
 def generate_answer(prompt):
+    """Generate an answer using the local Ollama model."""
+
+    # Build the request payload
     payload = {
         "model": OLLAMA_MODEL,
         "prompt": prompt,
-        "stream": False,  # Sends the whole answer instead of word by word
+        "stream": False,  # Send the whole answer instead of word by word
         "options": {
             "temperature": 0.2,
             "num_predict": 150,
         },
     }
 
-    # Sending the request
+    # Send the request to Ollama
     response = requests.post(
         OLLAMA_URL,
         json=payload,
         timeout=120,
     )
 
-    response.raise_for_status()  # Error check
+    # Raise an exception if the request failed
+    response.raise_for_status()
 
-    return response.json()["response"]
+    # Parse the response
+    data = response.json()
+
+    # Return the generated response
+    return data["response"]
