@@ -1,36 +1,57 @@
 # Local imports
-from knowledge.extractor import extract_entities
-from knowledge.storage import save_entities
+from knowledge.extractor import extract_chunk_entities
+from knowledge.graph_builder import build_graph
+from knowledge.graph_storage import save_graph
 
 from utils.storage import load_json
 
 # -----------------------------------------
-# Extract named entities from text chunks.
+# Build the knowledge graph.
 # -----------------------------------------
 
 CHUNKS_PATH = "data/processed/chunks.json"
-
-OUTPUT_PATH = "data/processed/entities.json"
+GRAPH_PATH = "data/processed/graph.graphml"
 
 
 def main():
-    """Extract and save named entities."""
+    """Build and save the knowledge graph."""
 
-    # Load text chunks
+    # Load the text chunks
     chunks = load_json(CHUNKS_PATH)
 
-    # Extract named entities
-    entities = extract_entities(chunks)
+    # Extract entities from each chunk
+    chunk_entities = extract_chunk_entities(chunks)
 
-    # Save the extracted entities
-    save_entities(
-        entities,
-        OUTPUT_PATH,
+    # Build the graph
+    graph = build_graph(
+        chunk_entities,
+        chunks,
     )
 
-    # Display extraction summary
-    print(f"Saved {len(entities)} entities.")
-    print(f"Output: {OUTPUT_PATH}")
+    # Save the graph
+    save_graph(
+        graph,
+        GRAPH_PATH,
+    )
+
+    # Display build summary
+    print()
+
+    print("Knowledge graph built successfully.")
+
+    print()
+
+    print(f"Chunk nodes : {len(chunks)}")
+    print(f"Entity nodes: {graph.number_of_nodes() - len(chunks)}")
+
+    print()
+
+    print(f"Total nodes : {graph.number_of_nodes()}")
+    print(f"Total edges : {graph.number_of_edges()}")
+
+    print()
+
+    print(f"Output: {GRAPH_PATH}")
 
 
 if __name__ == "__main__":

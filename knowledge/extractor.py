@@ -1,14 +1,18 @@
-# Third-party import
+# Third-party imports
 import spacy
 
-# Local import
+# Local imports
 from knowledge.entities import Entity
 
-# Load the English Natural Language Processing (NLP) model once
+from knowledge.entity_normalizer import (
+    normalize_entity_name,
+)
+
+# Load the English NLP model
 nlp = spacy.load("en_core_web_sm")
 
-# Supported named entity types
-SUPPORTED_TYPES = {
+# Entity types used to build the knowledge graph
+GRAPH_ENTITY_TYPES = {
     "PERSON",
     "ORG",
     "GPE",
@@ -17,79 +21,45 @@ SUPPORTED_TYPES = {
 }
 
 
-def extract_entities(chunks):
-    """Extract unique named entities from text chunks."""
-
-    entities = []
-    seen = set()
-    entity_id = 0
-
-    # Process each text chunk
-    for chunk in chunks:
-
-        # Run Named Entity Recognition
-        doc = nlp(chunk["text"])
-
-        # Process each detected entity
-        for ent in doc.ents:
-
-            # Ignore unsupported entity types
-            if ent.label_ not in SUPPORTED_TYPES:
-                continue
-
-            # Create a unique key for duplicate detection
-            key = (ent.text.lower(), ent.label_)
-
-            # Skip duplicate entities
-            if key in seen:
-                continue
-
-            seen.add(key)
-
-            # Store the extracted entity
-            entities.append(
-                Entity(
-                    id=entity_id,
-                    name=ent.text,
-                    type=ent.label_,
-                )
-            )
-
-            entity_id += 1
-
-    return entities
-
-
 def extract_chunk_entities(chunks):
-    """Extract named entities for every text chunk."""
+    """Extract named entities from each text chunk."""
 
-    # Result list
     chunk_entities = []
 
     # Process each text chunk
     for chunk in chunks:
 
-        # Run Named Entity Recognition
         doc = nlp(chunk["text"])
 
         entities = []
+        seen = set()
 
-        # Process each detected entity
+        # Extract unique entities from the chunk
         for ent in doc.ents:
 
             # Ignore unsupported entity types
-            if ent.label not in SUPPORTED_TYPES:
+            if ent.label_ not in GRAPH_ENTITY_TYPES:
                 continue
 
-            # Store the entity found in the current chunk
+            name = normalize_entity_name(ent)
+
+            # Ignore invalid entity names
+            if name is None:
+                continue
+
+            # Ignore duplicate entities within the same chunk
+            if name in seen:
+                continue
+
+            seen.add(name)
+
             entities.append(
                 {
-                    "name": ent.text.strip(),
+                    "name": name,
                     "type": ent.label_,
                 }
             )
 
-        # Store all entities belonging to the current chunk
         chunk_entities.append(
             {
                 "chunk_id": chunk["chunk_id"],
@@ -97,4 +67,39 @@ def extract_chunk_entities(chunks):
             }
         )
 
-        return chunk_entities
+    return chunk_entities
+
+
+def extract_entities(chunks):
+    """Extract unique named entities."""
+
+    chunk_entities = extract_chunk_entities(chunks)
+
+    entities = []
+    seen = {}
+    entity_id = 0
+
+    # Collect unique entities
+    for chunk in chunk_entities:
+
+        for entity in chunk["entities"]:
+
+            name = entity["name"]
+
+            # Ignore entities that were already added
+            if name in seen:
+                continue
+
+            seen[name] = entity_id
+
+            entities.append(
+                Entity(
+                    id=entity_id,
+                    name=name,
+                    type=entity["type"],
+                )
+            )
+
+            entity_id += 1
+
+    return entities
