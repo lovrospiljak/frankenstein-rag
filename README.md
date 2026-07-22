@@ -81,30 +81,100 @@ Each complete playthrough should involve approximately **ten player decisions**,
 
 ```
 frankenstein-rag-v2/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── knowledge/
-│
-├── rag/
-│
-├── parser/
-│
-├── llm/
-│
-├── scripts/
-│
-├── story/
-│
-├── utils/
-│
 ├── config.py
+├── data
+│   ├── raw
+│   │   └── Frankenstein.epub
+│   └── processed
+│       ├── canonical_entities.json
+│       ├── chunks.json
+│       ├── embeddings.json
+│       ├── entities.json
+│       ├── entity_documents.json
+│       ├── entity_embeddings.json
+│       ├── entity.index
+│       ├── entity_lookup.json
+│       ├── entity_resolution.json
+│       ├── faiss.index
+│       ├── graph_edges.json
+│       ├── graph.graphml
+│       ├── knowledge_graph.graphml
+│       ├── knowledge_graph.pkl
+│       ├── relationships.json
+│       ├── sections.json
+│       └── windows.json
+│
+├── knowledge
+│   ├── cooccurrence_graph.py
+│   ├── entities.py
+│   ├── entity_canonicalizer.py
+│   ├── entity_clusterer.py
+│   ├── entity_database.py
+│   ├── entity_documents.py
+│   ├── entity_embeddings.py
+│   ├── entity_faiss.py
+│   ├── entity_index.py
+│   ├── entity_normalizer.py
+│   ├── entity_profile_builder.py
+│   ├── entity_profiles.py
+│   ├── entity_resolution.py
+│   ├── extractor.py
+│   ├── graph_builder.py
+│   ├── graph_retriever.py
+│   ├── graph_story.py
+│   ├── similarity.py
+│   ├── storage.py
+│   ├── window_repository.py
+│   ├── windowing.py
+│   └── __init__.py
+│
+├── llm
+│   ├── local.py
+│   └── __init__.py
+│
+├── parser
+│   ├── epub_parser.py
+│   └── __init__.py
+│
+├── rag
+│   ├── chunker.py
+│   ├── embeddings.py
+│   ├── rag_story.py
+│   ├── retriever.py
+│   ├── vector_store.py
+│   └── __init__.py
+│
+├── scripts
+│   ├── build_entities.py
+│   ├── build_entity_documents.py
+│   ├── build_entity_embeddings.py
+│   ├── build_entity_faiss.py
+│   ├── build_entity_resolution.py
+│   ├── build_graph.py
+│   └── build_index.py
+│
+├── story
+│   ├── backend.py
+│   ├── game.py
+│   ├── generator.py
+│   ├── prompts.py
+│   ├── scene_loader.py
+│   ├── scenes.json
+│   ├── scenes.py
+│   ├── state.py
+│   ├── story_engine.py
+│   └── __init__.py
+│
+├── utils
+│   ├── storage.py
+│   └── __init__.py
+│
+├── .env.example
+├── .gitignore
+├── LICENSE
 ├── main.py
-├── requirements.txt
 ├── README.md
-└── LICENSE
+└── requirements.txt
 ```
 
 ---
@@ -131,7 +201,7 @@ The next development milestone is to transform the generator into an interactive
 The intended gameplay loop is:
 
 ```
-Choose retrieval backend
+Choose retrieval backend 
         │
         ▼
 Choose starting scene
