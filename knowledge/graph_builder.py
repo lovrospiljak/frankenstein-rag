@@ -1,44 +1,37 @@
-# Third-party imports
 import networkx as nx
 
+from knowledge.entities import (
+    CanonicalEntity,
+    GraphEdge,
+)
 
-def build_graph(chunk_entities, chunks):
-    """Build a bipartite knowledge graph from text chunks and entities."""
+
+def build_graph(
+    entities: list[CanonicalEntity],
+    edges: list[GraphEdge],
+) -> nx.Graph:
 
     graph = nx.Graph()
 
-    # Process each text chunk
-    for chunk, chunk_data in zip(chunks, chunk_entities):
+    for entity in entities:
 
-        chunk_node = f"chunk_{chunk['chunk_id']}"
-
-        # Add the chunk as a graph node
         graph.add_node(
-            chunk_node,
-            node_type="chunk",
-            chunk_id=chunk["chunk_id"],
-            section_id=chunk["section_id"],
-            text=chunk["text"],
+            entity.canonical,
+            entity_type=entity.entity_type,
+            aliases=entity.aliases,
+            description=entity.description,
+            mention_count=entity.mention_count,
+            chunk_ids=entity.chunk_ids,
+            section_ids=entity.section_ids,
         )
 
-        # Add entities connected to this chunk
-        for entity in chunk_data["entities"]:
+    for edge in edges:
 
-            entity_name = entity["name"]
-
-            # Add the entity if it does not already exist
-            if not graph.has_node(entity_name):
-
-                graph.add_node(
-                    entity_name,
-                    node_type="entity",
-                    entity_type=entity["type"],
-                )
-
-            # Connect the chunk to the entity
-            graph.add_edge(
-                chunk_node,
-                entity_name,
-            )
+        graph.add_edge(
+            edge.source,
+            edge.target,
+            weight=edge.weight,
+            window_ids=edge.window_ids,
+        )
 
     return graph

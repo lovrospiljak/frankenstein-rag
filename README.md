@@ -1,338 +1,255 @@
-# Frankenstein-RAG
+# Frankenstein Interactive Narrative with RAG and GraphRAG
 
-A Retrieval-Augmented Generation (RAG) system built around **Mary Shelley's _Frankenstein_** to investigate how different retrieval methods affect the consistency of LLM-generated interactive narratives.
+## Overview
 
-> **Research Question:**  
-> *Can structured story-world knowledge improve the consistency of LLM-generated interactive narratives compared to a traditional RAG pipeline?*
+This project explores Retrieval-Augmented Generation (RAG) techniques for interactive narrative generation using Mary Shelley's *Frankenstein* as the knowledge source.
 
-The ultimate goal of this project is **not only to answer questions about _Frankenstein_, but to generate entirely new interactive narratives that remain faithful to the original story world.**
+The system processes the original novel, builds retrieval indexes, and compares two retrieval strategies:
 
----
+- **Vanilla RAG** using vector similarity search
+- **GraphRAG** using a knowledge graph of entities and relationships
 
-# Project Overview
+Both approaches provide context to a local Large Language Model (LLM), allowing the generation of story continuations while remaining faithful to the source material.
 
-Large Language Models (LLMs) often generate hallucinations and inconsistencies when answering questions or generating long narratives. Retrieval-Augmented Generation (RAG) addresses this problem by retrieving relevant context before generation.
-
-This project progressively implements and compares three retrieval approaches:
-
-- **Vanilla RAG** – semantic retrieval using vector embeddings and FAISS.
-- **GraphRAG** *(planned)* – retrieval enhanced with a knowledge graph.
-- **Knowledge-Augmented Generation (KAG)** *(planned)* – combines semantic retrieval with structured story-world knowledge.
-
-All three systems use the **same language model** (**Qwen2.5:3B** running locally with **Ollama**), ensuring that any improvements come from the retrieval strategy rather than the model itself.
-
-The current implementation serves as a **baseline Vanilla RAG system**. While it retrieves relevant passages successfully, the generated answers are not yet consistently grounded in the retrieved context. This baseline will later be compared against GraphRAG and KAG.
+The project serves as the prototype for an AI research internship and will later evolve into a Unity-based interactive narrative game.
 
 ---
 
-# Features
+# Objectives
 
-## Current
+## Current Objectives
 
-- EPUB parsing
-- Story section extraction
-- Semantic text chunking
-- Embedding generation using **BAAI/bge-base-en-v1.5**
-- FAISS vector database
-- Semantic similarity retrieval
-- Prompt construction
-- Local LLM integration using **Ollama**
-- Interactive command-line chat application
-- Modular project architecture
+- Parse the Frankenstein EPUB
+- Build a retrieval-ready dataset
+- Implement Vanilla RAG
+- Implement GraphRAG
+- Compare retrieval quality
+- Generate context-aware story continuations using a local LLM
 
-## Planned
+## Planned Objectives
 
-- Knowledge graph construction
-- GraphRAG implementation
-- Knowledge-Augmented Generation (KAG)
-- Interactive narrative generation
-- Experimental comparison of Vanilla RAG, GraphRAG and KAG
+The project is evolving from a "single continuation generator" into an **interactive narrative engine**.
+
+Instead of producing one long continuation, the system will:
+
+1. Retrieve relevant story context.
+2. Generate a short continuation (1–3 sentences).
+3. Present exactly three possible actions.
+4. Allow the player to choose one.
+5. Repeat until the story naturally concludes.
+
+Each complete playthrough should involve approximately **ten player decisions**, enabling a meaningful comparison between Vanilla RAG and GraphRAG over multiple retrieval cycles.
 
 ---
 
-# Project Structure
+# Architecture
 
-```text
-frankenstein-rag/
+```
+                    Frankenstein.epub
+                            │
+                            ▼
+                     EPUB Parser
+                            │
+                            ▼
+                      Chunk Builder
+                            │
+              ┌─────────────┴─────────────┐
+              ▼                           ▼
+      Vector Embeddings            Entity Extraction
+              │                           │
+              ▼                           ▼
+         FAISS Index               Knowledge Graph
+              │                           │
+              └─────────────┬─────────────┘
+                            ▼
+                    Story Backends
+              ┌─────────────┴─────────────┐
+              ▼                           ▼
+         Vanilla RAG                GraphRAG
+              │                           │
+              └─────────────┬─────────────┘
+                            ▼
+                     Story Engine
+                            │
+                            ▼
+                     Local Ollama LLM
+```
+
+---
+
+# Current Project Structure
+
+```
+frankenstein-rag-v2/
 │
 ├── data/
-│   ├── processed/
-│   │   ├── chunks.json
-│   │   ├── embeddings.json
-│   │   ├── faiss.index
-│   │   └── sections.json
-│   │
-│   └── raw/
-│       └── Frankenstein.epub
+│   ├── raw/
+│   └── processed/
 │
-├── graphrag/                 # Planned
-├── kag/                      # Planned
-│
-├── llm/
-│   ├── __init__.py
-│   └── local.py
-│
-├── parser/
-│   ├── __init__.py
-│   └── epub_parser.py
+├── knowledge/
 │
 ├── rag/
-│   ├── __init__.py
-│   ├── chunker.py
-│   ├── embeddings.py
-│   ├── prompt_builder.py
-│   ├── retriever.py
-│   └── vector_store.py
 │
-├── tests/
-│   ├── __init__.py
-│   ├── test_local_llm.py
-│   ├── test_retrieval.py
-│   └── test_rag_pipeline.py
+├── parser/
+│
+├── llm/
+│
+├── scripts/
+│
+├── story/
 │
 ├── utils/
-│   ├── __init__.py
-│   └── storage.py
 │
-├── .env.example
-├── .gitignore
-├── build_index.py
-├── chat.py
 ├── config.py
-├── LICENSE
+├── main.py
+├── requirements.txt
 ├── README.md
-└── requirements.txt
+└── LICENSE
 ```
+
+---
+
+# Current Workflow
+
+1. Parse the EPUB.
+2. Split the book into chunks.
+3. Generate embeddings.
+4. Build a FAISS vector index.
+5. Extract named entities.
+6. Build a knowledge graph.
+7. Choose either:
+   - Vanilla RAG
+   - GraphRAG
+8. Generate a story continuation using the retrieved context.
+
+---
+
+# Planned Gameplay Loop
+
+The next development milestone is to transform the generator into an interactive story.
+
+The intended gameplay loop is:
+
+```
+Choose retrieval backend
+        │
+        ▼
+Choose starting scene
+        │
+        ▼
+┌─────────────────────────────┐
+│ Retrieve relevant context   │◄──────────────────────────────┐
+└─────────────────────────────┘                               │
+        │                                                     │
+        ▼                                                     │
+Generate short story paragraph                               │
+        │                                                     │
+        ▼                                                     │
+Generate three player choices                                │
+        │                                                     │
+        ▼                                                     │
+Player selects one choice                                    │
+        │                                                     │
+        ▼                                                     │
+Update story state                                            │
+        │                                                     │
+        ▼                                                     │
+Story finished? ── No ────────────────────────────────────────┘
+        │
+       Yes
+        │
+        ▼
+Display ending
+```
+
+Unlike the current implementation, the player will **not** enter custom actions. Every turn will consist of selecting one of three AI-generated choices.
+
+---
+
+# Research Goals
+
+The primary research objective is to evaluate whether a knowledge graph improves retrieval quality for interactive storytelling.
+
+The comparison focuses on:
+
+- narrative consistency
+- character consistency
+- location consistency
+- long-term memory
+- retrieval relevance
+- story coherence across multiple decisions
 
 ---
 
 # Technologies
 
 - Python
-- Sentence Transformers
-- BAAI/bge-base-en-v1.5
-- FAISS
 - Ollama
-- Qwen2.5:3B
-- NumPy
-- BeautifulSoup4
-- EbookLib
-
----
-
-# Vanilla RAG Pipeline
-
-```text
-Frankenstein EPUB
-        │
-        ▼
- Parse the novel
-        │
-        ▼
- Split into chunks
-        │
-        ▼
- Generate embeddings
-        │
-        ▼
- Store vectors in FAISS
-        │
-        ▼
- User asks a question
-        │
-        ▼
- Convert question to embedding
-        │
-        ▼
- Retrieve relevant chunks
-        │
-        ▼
- Build prompt
-        │
-        ▼
- Local LLM (Qwen2.5)
-        │
-        ▼
- Generated answer
-```
-
----
-
-# Installation
-
-## 1. Clone the repository
-
-```bash
-git clone git@github.com:lovrospiljak/frankenstein-rag.git
-cd frankenstein-rag
-```
-
-## 2. Create a virtual environment
-
-Linux/macOS:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
-
-Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-## 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## 4. Install Ollama
-
-Download Ollama from:
-
-https://ollama.com/
-
-Pull the model:
-
-```bash
-ollama pull qwen2.5:3b
-```
-
-Start the Ollama server:
-
-```bash
-ollama serve
-```
-
----
-
-# Usage
-
-## Build the knowledge base
-
-Run once after changing the source novel:
-
-```bash
-python build_index.py
-```
-
-This script:
-
-- parses the EPUB
-- extracts sections
-- creates semantic chunks
-- generates embeddings
-- builds the FAISS vector index
-
-## Start the chat application
-
-```bash
-python chat.py
-```
-
-Example:
-
-```text
-=== Frankenstein RAG ===
-
-> Who created the creature?
-
-Victor Frankenstein created the creature.
-```
-
-Type `exit` or `quit` to close the application.
+- Qwen
+- FAISS
+- NetworkX
+- Sentence Transformers
+- EPUBLib
 
 ---
 
 # Current Status
 
-The project currently implements a complete **Vanilla RAG pipeline**.
+✅ EPUB parser
 
-The retrieval stage performs well and successfully finds relevant passages from the novel. However, the generated responses are **not always fully grounded** in the retrieved context. The language model may still rely on its pre-trained knowledge, occasionally producing inconsistent or hallucinated answers.
+✅ Chunk generation
 
-For example:
+✅ Vector embeddings
 
-```text
-> Isn't Frankenstein the monster?
+✅ FAISS retrieval
 
-No, Frankenstein is the creator of the monster.
+✅ Entity extraction
 
-> What is the monster's name?
+✅ Knowledge graph generation
 
-The monster's name is Frankenstein.
-```
+✅ Vanilla RAG backend
 
-This baseline behavior motivates the next stages of the project, where **GraphRAG** and **Knowledge-Augmented Generation (KAG)** will be implemented to improve factual grounding and narrative consistency.
+✅ GraphRAG backend
 
----
-
-# Roadmap
-
-## ✅ Milestone 1 – Data Processing
-
-- EPUB parsing
-- Story section extraction
-
-## ✅ Milestone 2 – Vanilla RAG
-
-- Semantic chunking
-- Embedding generation
-- FAISS vector database
-- Semantic retrieval
-- Prompt construction
-- Local LLM integration
-- Interactive chat application
-
-## 🚧 Milestone 3 – GraphRAG
-
-- Knowledge graph construction
-- Entity extraction
-- Relationship extraction
-- Graph-based retrieval
-
-## 📋 Milestone 4 – Knowledge-Augmented Generation (KAG)
-
-- Story-world knowledge representation
-- Hybrid retrieval
-- Knowledge-guided prompting
-
-## 📋 Milestone 5 – Evaluation
-
-- Compare Vanilla RAG, GraphRAG and KAG
-- Measure factual consistency
-- Measure narrative consistency
-- Analyze hallucination rate
-
-## 📋 Milestone 6 – Interactive Narrative Generation
-
-The final objective is to generate entirely new stories set in the world of **Frankenstein**.
-
-Each retrieval architecture will be extended with a story generation pipeline, allowing direct comparison of the generated narratives.
+✅ Story generation prototype
 
 ---
 
-# Research Goal
+# Preliminary Results
 
-The project follows a progressive research methodology:
+Initial testing in the terminal has already demonstrated qualitative differences between the two retrieval approaches.
 
-1. Build a **Vanilla RAG** baseline.
-2. Extend it into **GraphRAG** using a knowledge graph.
-3. Develop a **Knowledge-Augmented Generation (KAG)** system.
-4. Compare all three approaches using the **same embedding model** and **same language model**.
-5. Evaluate both **question answering** and **interactive narrative generation**.
+### GraphRAG
 
-| System      | Semantic Retrieval | Knowledge Graph | Story-World Knowledge | Status |
-|-------------|:------------------:|:---------------:|:---------------------:|:------:|
-| Vanilla RAG |         ✅         |        ❌       |          ❌           |   ✅   |
-| GraphRAG    |         ✅         |        ✅       |        Partial        |   🚧   |
-| KAG         |         ✅         |        ✅       |          ✅           |   🚧   |
+During preliminary experiments, GraphRAG consistently generated story continuations that remained faithful to the events of the novel. The generated responses respected the current point in the narrative and maintained consistency with the characters' knowledge and relationships. The generated story continuation was subjectively good and enjoyable to read.
+
+### Vanilla RAG
+
+Vanilla RAG occasionally introduced information from later parts of the novel before those events had occurred. This resulted in temporal inconsistencies and references to future events.
+
+Examples observed during testing include:
+
+> "You have killed my friends, my family!"
+
+At this point in the story, none of these events had yet occurred.
+
+> "... you abandoned me. You left me to suffer, to be hunted, to be despised."
+
+The Creature had only recently been created and had not yet experienced these events.
+
+> "... denied it the love and care it so desperately needed."
+
+Immediately after the Creature's creation, this statement assumes experiences and emotional development that have not yet taken place in the narrative.
+
+These observations suggest that GraphRAG provides stronger narrative consistency than a standard vector-based RAG approach. A systematic evaluation will be performed in future work.
 
 ---
 
-# License
+# Next Milestones
 
-This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
-
-See the `LICENSE` file for the complete license text.
+- Short-form interactive story generation
+- AI-generated decision points
+- Turn-based gameplay loop
+- Story state management across turns
+- Automatic story ending after a certain amount of player decisions
+- Retrieval quality evaluation

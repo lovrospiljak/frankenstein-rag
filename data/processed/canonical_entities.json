@@ -1,0 +1,2229 @@
+[
+    {
+        "canonical": "Saville",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "England",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "St. Petersburgh",
+        "entity_type": "GPE",
+        "aliases": [
+            "Petersburgh"
+        ],
+        "description": "",
+        "mention_count": 2,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "London",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Margaret",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "North Pacific Ocean",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Uncle Thomas",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Thomas",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Shakespeare",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "the North Sea",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Greenland",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Russia",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Archangel",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "R. Walton",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Uncle",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Africa",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "America",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Robert Walton",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Adieu",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "rs trickle",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Walton",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Beaufort",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Lucerne",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Overj",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Reuss",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Caroline Beaufort",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Geneva",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Caroline",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Italy",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Germany",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "France",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Naples",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "the Lake of Como",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Milan",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Austria",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Providence",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Elizabeth Lavenza",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Lavenza",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Elizabeth",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Victor",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Harmony",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Alpine",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Henry Clerval",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Roncesvalles",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Clerval",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Thonon",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Cornelius Agrippa",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Agrippa",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Paracelsus",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Isaac Newton",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "tyros eng",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "usand contradictory theories",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Jura",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "the university of Ingolstadt",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Ingolstadt",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Henry deeply",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "M. Krempe",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Albertus Magnus",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "M. Waldman",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "gh futile",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "grey hairs",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "miracl",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "chord",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Frankenstein",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "ce arise",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Kr",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Krempe",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Greece",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Cæsar",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Mexico",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Peru",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Dante",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Doth",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Coleridge",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "duri",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "The Vicar of Wakefield",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Henry",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "kindest",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Dearest Clerval",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Ernest",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Justine Moritz",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "M. Moritz",
+        "entity_type": "PERSON",
+        "aliases": [
+            "Moritz"
+        ],
+        "description": "",
+        "mention_count": 2,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Justine",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Angelica",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "William",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Louisa Bi",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Louisa Biron",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Mansfield",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "John Melbourne",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Esq",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Manon",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "M. Duvillard",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Louis Manoir",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Frenchwoman, Madame Tavernier",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "al",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "M. Clerval",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "M. Frankenstein",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "East",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Sanskrit",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Rome",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Plainpalais",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Alas, Victor",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Lausanne",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "the snowy mountains",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Mont Blanc",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Secheron",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "ed every minute",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Salêve",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Juras",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Switzerland",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Copêt",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Môle",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Mont Salêve",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "garb",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "accusations.—Poor William",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Justi",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Time",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "iam",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Dearest",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "ed confident",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Elizab",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Chêne",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Madam",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Victo",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Farewell",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Ye",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "kinsman",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Andes",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Dear Victor",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Chamounix",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Arve",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Alps",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Servox",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Arveiron",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "valley",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Montanvert",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Embrace",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Nought",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "width",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Adam",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Shall",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Cursed",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Relieve",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Pandæmonium",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "sty",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Agatha",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Felix",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Safie",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Volney’s Ruins",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Eastern",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "tim",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "abject",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "De Lacey",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Paris",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Constantinople",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Muhammadan",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Turk",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "deliverer",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Muhammad",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Asia",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Mont Cenis",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Leghorn",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Turkey",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "l",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Paradise Lost",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Plutarch’s Lives",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Werter",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "pleasur",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Numa",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Solon",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Lycurgus",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Romulus",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Creator",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Satan",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Paradise",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "South America",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Europe",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Depart",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Strasburgh",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Nay",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Rhine",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Rotterdam",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Mannheim",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Mainz",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Uri",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "La",
+        "entity_type": "FAC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "the Pays de Vaud",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Holland",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Bri",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Britain",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Tilbury Fort",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Armada",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Woolwich",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Greenwich",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "St. Paul’s",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "nat",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "India",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Scotland",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Perth",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Edinburgh",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Windsor",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Oxford",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Matlock",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Cumberland",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Charles I",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Parliament",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Falkland",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Isis",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Hampden",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Derby",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Westmorland",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Arthur’s Seat",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "St. Bernard’s",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "the Pentland Hills",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Coupar",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Tay",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "gaunt",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "ldren",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "barren rock",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Atlantic",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "inn",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Kirwin",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Daniel Nugent",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Kir",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "the Orkney Islands",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Ireland",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Havre-de-Grace",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Friend",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Eliz",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "ed adrift",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Elizabet",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Como",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Villa Lavenza",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Evian",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Genevan",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "ed observer",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "un",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Rhone",
+        "entity_type": "ORG",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Mediterranean",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "the Black Sea",
+        "entity_type": "LOC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Tartary",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "the Frozen Ocean",
+        "entity_type": "FAC",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Behold",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "stein",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Seek",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "Clerva",
+        "entity_type": "PERSON",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    },
+    {
+        "canonical": "thou",
+        "entity_type": "GPE",
+        "aliases": [],
+        "description": "",
+        "mention_count": 1,
+        "chunk_ids": [],
+        "section_ids": []
+    }
+]

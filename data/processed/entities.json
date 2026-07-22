@@ -66,1326 +66,1181 @@
     },
     {
         "id": 13,
-        "name": "St.\nPetersburgh",
-        "type": "ORG"
-    },
-    {
-        "id": 14,
         "name": "Archangel",
         "type": "PERSON"
     },
     {
-        "id": 15,
+        "id": 14,
         "name": "R. Walton",
         "type": "PERSON"
     },
     {
-        "id": 16,
-        "name": "Archangel",
-        "type": "GPE"
-    },
-    {
-        "id": 17,
+        "id": 15,
         "name": "Uncle",
         "type": "PERSON"
     },
     {
-        "id": 18,
+        "id": 16,
         "name": "Africa",
         "type": "LOC"
     },
     {
-        "id": 19,
+        "id": 17,
         "name": "America",
         "type": "GPE"
     },
     {
-        "id": 20,
+        "id": 18,
         "name": "Robert Walton",
         "type": "PERSON"
     },
     {
-        "id": 21,
+        "id": 19,
         "name": "Adieu",
         "type": "PERSON"
     },
     {
-        "id": 22,
+        "id": 20,
         "name": "rs trickle",
         "type": "PERSON"
     },
     {
-        "id": 23,
+        "id": 21,
         "name": "Walton",
         "type": "PERSON"
     },
     {
-        "id": 24,
+        "id": 22,
         "name": "Beaufort",
         "type": "GPE"
     },
     {
-        "id": 25,
+        "id": 23,
         "name": "Lucerne",
         "type": "GPE"
     },
     {
-        "id": 26,
+        "id": 24,
         "name": "Overj",
         "type": "ORG"
     },
     {
-        "id": 27,
+        "id": 25,
         "name": "Reuss",
         "type": "PERSON"
     },
     {
-        "id": 28,
+        "id": 26,
         "name": "Caroline Beaufort",
         "type": "ORG"
     },
     {
-        "id": 29,
+        "id": 27,
         "name": "Geneva",
         "type": "GPE"
     },
     {
-        "id": 30,
+        "id": 28,
         "name": "Caroline",
         "type": "PERSON"
     },
     {
-        "id": 31,
+        "id": 29,
         "name": "Italy",
         "type": "GPE"
     },
     {
-        "id": 32,
+        "id": 30,
         "name": "Germany",
         "type": "GPE"
     },
     {
-        "id": 33,
+        "id": 31,
         "name": "France",
         "type": "GPE"
     },
     {
-        "id": 34,
+        "id": 32,
         "name": "Naples",
         "type": "GPE"
     },
     {
-        "id": 35,
+        "id": 33,
         "name": "the Lake of Como",
         "type": "LOC"
     },
     {
-        "id": 36,
+        "id": 34,
         "name": "Milan",
         "type": "GPE"
     },
     {
-        "id": 37,
+        "id": 35,
         "name": "Austria",
         "type": "GPE"
     },
     {
-        "id": 38,
+        "id": 36,
         "name": "Providence",
         "type": "GPE"
     },
     {
-        "id": 39,
+        "id": 37,
         "name": "Elizabeth Lavenza",
         "type": "PERSON"
     },
     {
-        "id": 40,
+        "id": 38,
         "name": "Lavenza",
         "type": "PERSON"
     },
     {
-        "id": 41,
+        "id": 39,
         "name": "Elizabeth",
         "type": "PERSON"
     },
     {
-        "id": 42,
+        "id": 40,
         "name": "Victor",
         "type": "PERSON"
     },
     {
-        "id": 43,
+        "id": 41,
         "name": "Harmony",
         "type": "PERSON"
     },
     {
-        "id": 44,
+        "id": 42,
         "name": "Alpine",
         "type": "PERSON"
     },
     {
-        "id": 45,
+        "id": 43,
         "name": "Henry Clerval",
         "type": "PERSON"
     },
     {
-        "id": 46,
+        "id": 44,
         "name": "Roncesvalles",
         "type": "GPE"
     },
     {
-        "id": 47,
+        "id": 45,
         "name": "Clerval",
         "type": "PERSON"
     },
     {
-        "id": 48,
+        "id": 46,
         "name": "Thonon",
         "type": "GPE"
     },
     {
-        "id": 49,
+        "id": 47,
         "name": "Cornelius Agrippa",
         "type": "PERSON"
     },
     {
-        "id": 50,
+        "id": 48,
         "name": "Agrippa",
         "type": "PERSON"
     },
     {
-        "id": 51,
+        "id": 49,
         "name": "Paracelsus",
         "type": "PERSON"
     },
     {
-        "id": 52,
+        "id": 50,
         "name": "Isaac Newton",
         "type": "PERSON"
     },
     {
-        "id": 53,
+        "id": 51,
         "name": "tyros eng",
         "type": "PERSON"
     },
     {
-        "id": 54,
+        "id": 52,
         "name": "usand contradictory theories",
         "type": "ORG"
     },
     {
-        "id": 55,
+        "id": 53,
         "name": "Jura",
         "type": "GPE"
     },
     {
-        "id": 56,
+        "id": 54,
         "name": "the university of Ingolstadt",
         "type": "ORG"
     },
     {
-        "id": 57,
+        "id": 55,
         "name": "Ingolstadt",
         "type": "ORG"
     },
     {
-        "id": 58,
-        "name": "Henry\ndeeply",
+        "id": 56,
+        "name": "Henry deeply",
         "type": "PERSON"
     },
     {
-        "id": 59,
+        "id": 57,
         "name": "M. Krempe",
         "type": "GPE"
     },
     {
-        "id": 60,
-        "name": "M. Krempe",
-        "type": "PERSON"
-    },
-    {
-        "id": 61,
+        "id": 58,
         "name": "Albertus Magnus",
         "type": "LOC"
     },
     {
-        "id": 62,
+        "id": 59,
         "name": "M. Waldman",
         "type": "PERSON"
     },
     {
-        "id": 63,
+        "id": 60,
         "name": "gh futile",
         "type": "PERSON"
     },
     {
-        "id": 64,
-        "name": "M. Krempe",
-        "type": "ORG"
-    },
-    {
-        "id": 65,
-        "name": "M.\nWaldman",
-        "type": "ORG"
-    },
-    {
-        "id": 66,
+        "id": 61,
         "name": "grey hairs",
         "type": "ORG"
     },
     {
-        "id": 67,
+        "id": 62,
         "name": "miracl",
         "type": "ORG"
     },
     {
-        "id": 68,
+        "id": 63,
         "name": "chord",
         "type": "PERSON"
     },
     {
-        "id": 69,
+        "id": 64,
         "name": "Frankenstein",
         "type": "PERSON"
     },
     {
-        "id": 70,
+        "id": 65,
         "name": "ce arise",
         "type": "PERSON"
     },
     {
-        "id": 71,
+        "id": 66,
         "name": "Kr",
         "type": "PERSON"
     },
     {
-        "id": 72,
+        "id": 67,
         "name": "Krempe",
         "type": "PERSON"
     },
     {
-        "id": 73,
+        "id": 68,
         "name": "Greece",
         "type": "GPE"
     },
     {
-        "id": 74,
-        "name": "C\u00e6sar",
+        "id": 69,
+        "name": "Cæsar",
         "type": "ORG"
     },
     {
-        "id": 75,
+        "id": 70,
         "name": "Mexico",
         "type": "GPE"
     },
     {
-        "id": 76,
+        "id": 71,
         "name": "Peru",
         "type": "GPE"
     },
     {
-        "id": 77,
-        "name": "Ingolstadt",
-        "type": "GPE"
-    },
-    {
-        "id": 78,
+        "id": 72,
         "name": "Dante",
         "type": "PERSON"
     },
     {
-        "id": 79,
+        "id": 73,
         "name": "Doth",
         "type": "ORG"
     },
     {
-        "id": 80,
+        "id": 74,
         "name": "Coleridge",
         "type": "ORG"
     },
     {
-        "id": 81,
+        "id": 75,
         "name": "duri",
         "type": "GPE"
     },
     {
-        "id": 82,
+        "id": 76,
         "name": "The Vicar of Wakefield",
         "type": "GPE"
     },
     {
-        "id": 83,
+        "id": 77,
         "name": "Henry",
         "type": "PERSON"
     },
     {
-        "id": 84,
+        "id": 78,
         "name": "kindest",
         "type": "PERSON"
     },
     {
-        "id": 85,
+        "id": 79,
         "name": "Dearest Clerval",
         "type": "PERSON"
     },
     {
-        "id": 86,
+        "id": 80,
         "name": "Ernest",
         "type": "PERSON"
     },
     {
-        "id": 87,
+        "id": 81,
         "name": "Justine Moritz",
         "type": "PERSON"
     },
     {
-        "id": 88,
+        "id": 82,
         "name": "Moritz",
         "type": "PERSON"
     },
     {
-        "id": 89,
+        "id": 83,
         "name": "Justine",
         "type": "PERSON"
     },
     {
-        "id": 90,
+        "id": 84,
         "name": "M. Moritz",
         "type": "PERSON"
     },
     {
-        "id": 91,
-        "name": "Justine",
-        "type": "GPE"
-    },
-    {
-        "id": 92,
+        "id": 85,
         "name": "Angelica",
         "type": "GPE"
     },
     {
-        "id": 93,
-        "name": "Moritz",
-        "type": "ORG"
-    },
-    {
-        "id": 94,
+        "id": 86,
         "name": "William",
         "type": "PERSON"
     },
     {
-        "id": 95,
+        "id": 87,
         "name": "Louisa Bi",
         "type": "PERSON"
     },
     {
-        "id": 96,
+        "id": 88,
         "name": "Louisa Biron",
         "type": "PERSON"
     },
     {
-        "id": 97,
+        "id": 89,
         "name": "Mansfield",
         "type": "PERSON"
     },
     {
-        "id": 98,
+        "id": 90,
         "name": "John Melbourne",
         "type": "PERSON"
     },
     {
-        "id": 99,
+        "id": 91,
         "name": "Esq",
         "type": "GPE"
     },
     {
-        "id": 100,
+        "id": 92,
         "name": "Manon",
         "type": "GPE"
     },
     {
-        "id": 101,
+        "id": 93,
         "name": "M. Duvillard",
         "type": "PERSON"
     },
     {
-        "id": 102,
+        "id": 94,
         "name": "Louis Manoir",
         "type": "PERSON"
     },
     {
-        "id": 103,
+        "id": 95,
         "name": "Frenchwoman, Madame Tavernier",
         "type": "ORG"
     },
     {
-        "id": 104,
+        "id": 96,
         "name": "al",
         "type": "PERSON"
     },
     {
-        "id": 105,
+        "id": 97,
         "name": "M. Clerval",
         "type": "PERSON"
     },
     {
-        "id": 106,
+        "id": 98,
         "name": "M. Frankenstein",
         "type": "PERSON"
     },
     {
-        "id": 107,
+        "id": 99,
         "name": "East",
         "type": "LOC"
     },
     {
-        "id": 108,
+        "id": 100,
         "name": "Sanskrit",
         "type": "LOC"
     },
     {
-        "id": 109,
+        "id": 101,
         "name": "Rome",
         "type": "GPE"
     },
     {
-        "id": 110,
+        "id": 102,
         "name": "Plainpalais",
         "type": "GPE"
     },
     {
-        "id": 111,
+        "id": 103,
         "name": "Alas, Victor",
         "type": "ORG"
     },
     {
-        "id": 112,
+        "id": 104,
         "name": "Lausanne",
         "type": "GPE"
     },
     {
-        "id": 113,
+        "id": 105,
         "name": "the snowy mountains",
         "type": "LOC"
     },
     {
-        "id": 114,
+        "id": 106,
         "name": "Mont Blanc",
         "type": "ORG"
     },
     {
-        "id": 115,
+        "id": 107,
         "name": "Secheron",
         "type": "ORG"
     },
     {
-        "id": 116,
-        "name": "ed\nevery minute",
+        "id": 108,
+        "name": "ed every minute",
         "type": "PERSON"
     },
     {
-        "id": 117,
-        "name": "Sal\u00eave",
+        "id": 109,
+        "name": "Salêve",
         "type": "ORG"
     },
     {
-        "id": 118,
+        "id": 110,
         "name": "Juras",
         "type": "PERSON"
     },
     {
-        "id": 119,
+        "id": 111,
         "name": "Switzerland",
         "type": "GPE"
     },
     {
-        "id": 120,
-        "name": "Cop\u00eat",
+        "id": 112,
+        "name": "Copêt",
         "type": "GPE"
     },
     {
-        "id": 121,
-        "name": "Jura",
-        "type": "PERSON"
-    },
-    {
-        "id": 122,
-        "name": "M\u00f4le",
+        "id": 113,
+        "name": "Môle",
         "type": "LOC"
     },
     {
-        "id": 123,
-        "name": "Mont Sal\u00eave",
+        "id": 114,
+        "name": "Mont Salêve",
         "type": "ORG"
     },
     {
-        "id": 124,
-        "name": "Caroline\nBeaufort",
-        "type": "PERSON"
-    },
-    {
-        "id": 125,
+        "id": 115,
         "name": "garb",
         "type": "PERSON"
     },
     {
-        "id": 126,
-        "name": "accusations.\u2014Poor William",
+        "id": 116,
+        "name": "accusations.—Poor William",
         "type": "PERSON"
     },
     {
-        "id": 127,
+        "id": 117,
         "name": "Justi",
         "type": "PERSON"
     },
     {
-        "id": 128,
+        "id": 118,
         "name": "Time",
         "type": "ORG"
     },
     {
-        "id": 129,
+        "id": 119,
         "name": "iam",
         "type": "PERSON"
     },
     {
-        "id": 130,
+        "id": 120,
         "name": "Dearest",
         "type": "LOC"
     },
     {
-        "id": 131,
+        "id": 121,
         "name": "ed confident",
         "type": "PERSON"
     },
     {
-        "id": 132,
+        "id": 122,
         "name": "Elizab",
         "type": "PERSON"
     },
     {
-        "id": 133,
-        "name": "Ch\u00eane",
+        "id": 123,
+        "name": "Chêne",
         "type": "ORG"
     },
     {
-        "id": 134,
+        "id": 124,
         "name": "Madam",
         "type": "PERSON"
     },
     {
-        "id": 135,
+        "id": 125,
         "name": "Victo",
         "type": "PERSON"
     },
     {
-        "id": 136,
+        "id": 126,
         "name": "Farewell",
         "type": "PERSON"
     },
     {
-        "id": 137,
+        "id": 127,
         "name": "Ye",
         "type": "PERSON"
     },
     {
-        "id": 138,
+        "id": 128,
         "name": "kinsman",
         "type": "PERSON"
     },
     {
-        "id": 139,
+        "id": 129,
         "name": "Andes",
         "type": "LOC"
     },
     {
-        "id": 140,
-        "name": "Justine\nMoritz",
-        "type": "PERSON"
-    },
-    {
-        "id": 141,
+        "id": 130,
         "name": "Dear Victor",
         "type": "ORG"
     },
     {
-        "id": 142,
-        "name": "Alpine",
-        "type": "GPE"
-    },
-    {
-        "id": 143,
+        "id": 131,
         "name": "Chamounix",
         "type": "GPE"
     },
     {
-        "id": 144,
+        "id": 132,
         "name": "Arve",
         "type": "PERSON"
     },
     {
-        "id": 145,
+        "id": 133,
         "name": "Alps",
         "type": "LOC"
     },
     {
-        "id": 146,
+        "id": 134,
         "name": "Servox",
         "type": "GPE"
     },
     {
-        "id": 147,
-        "name": "Mont Blanc",
-        "type": "PERSON"
-    },
-    {
-        "id": 148,
+        "id": 135,
         "name": "Arveiron",
         "type": "ORG"
     },
     {
-        "id": 149,
+        "id": 136,
         "name": "valley",
         "type": "LOC"
     },
     {
-        "id": 150,
+        "id": 137,
         "name": "Montanvert",
         "type": "PERSON"
     },
     {
-        "id": 151,
+        "id": 138,
         "name": "Embrace",
         "type": "ORG"
     },
     {
-        "id": 152,
+        "id": 139,
         "name": "Nought",
         "type": "ORG"
     },
     {
-        "id": 153,
+        "id": 140,
         "name": "width",
         "type": "GPE"
     },
     {
-        "id": 154,
+        "id": 141,
         "name": "Adam",
         "type": "PERSON"
     },
     {
-        "id": 155,
+        "id": 142,
         "name": "Shall",
         "type": "PERSON"
     },
     {
-        "id": 156,
+        "id": 143,
         "name": "Cursed",
         "type": "PERSON"
     },
     {
-        "id": 157,
+        "id": 144,
         "name": "Relieve",
         "type": "PERSON"
     },
     {
-        "id": 158,
-        "name": "Pand\u00e6monium",
+        "id": 145,
+        "name": "Pandæmonium",
         "type": "ORG"
     },
     {
-        "id": 159,
+        "id": 146,
         "name": "sty",
         "type": "ORG"
     },
     {
-        "id": 160,
+        "id": 147,
         "name": "Agatha",
         "type": "GPE"
     },
     {
-        "id": 161,
+        "id": 148,
         "name": "Felix",
         "type": "ORG"
     },
     {
-        "id": 162,
-        "name": "Agatha",
-        "type": "PERSON"
-    },
-    {
-        "id": 163,
-        "name": "Felix",
-        "type": "PERSON"
-    },
-    {
-        "id": 164,
-        "name": "Agatha",
-        "type": "ORG"
-    },
-    {
-        "id": 165,
+        "id": 149,
         "name": "Safie",
         "type": "ORG"
     },
     {
-        "id": 166,
-        "name": "Volney\u2019s Ruins",
+        "id": 150,
+        "name": "Volney’s Ruins",
         "type": "PERSON"
     },
     {
-        "id": 167,
+        "id": 151,
         "name": "Eastern",
         "type": "ORG"
     },
     {
-        "id": 168,
+        "id": 152,
         "name": "tim",
         "type": "PERSON"
     },
     {
-        "id": 169,
+        "id": 153,
         "name": "abject",
         "type": "ORG"
     },
     {
-        "id": 170,
+        "id": 154,
         "name": "De Lacey",
         "type": "PERSON"
     },
     {
-        "id": 171,
+        "id": 155,
         "name": "Paris",
         "type": "GPE"
     },
     {
-        "id": 172,
+        "id": 156,
         "name": "Constantinople",
         "type": "ORG"
     },
     {
-        "id": 173,
+        "id": 157,
         "name": "Muhammadan",
         "type": "GPE"
     },
     {
-        "id": 174,
+        "id": 158,
         "name": "Turk",
         "type": "PERSON"
     },
     {
-        "id": 175,
+        "id": 159,
         "name": "deliverer",
         "type": "ORG"
     },
     {
-        "id": 176,
+        "id": 160,
         "name": "Muhammad",
         "type": "PERSON"
     },
     {
-        "id": 177,
+        "id": 161,
         "name": "Asia",
         "type": "LOC"
     },
     {
-        "id": 178,
+        "id": 162,
         "name": "Mont Cenis",
         "type": "PERSON"
     },
     {
-        "id": 179,
+        "id": 163,
         "name": "Leghorn",
         "type": "ORG"
     },
     {
-        "id": 180,
-        "name": "Leghorn",
-        "type": "GPE"
-    },
-    {
-        "id": 181,
+        "id": 164,
         "name": "Turkey",
         "type": "GPE"
     },
     {
-        "id": 182,
-        "name": "De\nLacey",
-        "type": "ORG"
-    },
-    {
-        "id": 183,
+        "id": 165,
         "name": "l",
         "type": "ORG"
     },
     {
-        "id": 184,
+        "id": 166,
         "name": "Paradise Lost",
         "type": "ORG"
     },
     {
-        "id": 185,
-        "name": "Plutarch\u2019s\nLives",
+        "id": 167,
+        "name": "Plutarch’s Lives",
         "type": "ORG"
     },
     {
-        "id": 186,
+        "id": 168,
         "name": "Werter",
         "type": "PERSON"
     },
     {
-        "id": 187,
-        "name": "Plutarch\u2019s Lives",
-        "type": "ORG"
-    },
-    {
-        "id": 188,
+        "id": 169,
         "name": "pleasur",
         "type": "GPE"
     },
     {
-        "id": 189,
+        "id": 170,
         "name": "Numa",
         "type": "PERSON"
     },
     {
-        "id": 190,
+        "id": 171,
         "name": "Solon",
         "type": "ORG"
     },
     {
-        "id": 191,
+        "id": 172,
         "name": "Lycurgus",
         "type": "PERSON"
     },
     {
-        "id": 192,
+        "id": 173,
         "name": "Romulus",
         "type": "GPE"
     },
     {
-        "id": 193,
+        "id": 174,
         "name": "Creator",
         "type": "PERSON"
     },
     {
-        "id": 194,
+        "id": 175,
         "name": "Satan",
         "type": "GPE"
     },
     {
-        "id": 195,
+        "id": 176,
         "name": "Paradise",
         "type": "LOC"
     },
     {
-        "id": 196,
-        "name": "De Lacey",
-        "type": "ORG"
-    },
-    {
-        "id": 197,
+        "id": 177,
         "name": "South America",
         "type": "LOC"
     },
     {
-        "id": 198,
+        "id": 178,
         "name": "Europe",
         "type": "LOC"
     },
     {
-        "id": 199,
+        "id": 179,
         "name": "Depart",
         "type": "PERSON"
     },
     {
-        "id": 200,
+        "id": 180,
         "name": "Strasburgh",
         "type": "PERSON"
     },
     {
-        "id": 201,
+        "id": 181,
         "name": "Nay",
         "type": "PERSON"
     },
     {
-        "id": 202,
-        "name": "Clerval",
-        "type": "GPE"
-    },
-    {
-        "id": 203,
+        "id": 182,
         "name": "Rhine",
         "type": "PERSON"
     },
     {
-        "id": 204,
+        "id": 183,
         "name": "Rotterdam",
         "type": "PERSON"
     },
     {
-        "id": 205,
+        "id": 184,
         "name": "Mannheim",
         "type": "GPE"
     },
     {
-        "id": 206,
+        "id": 185,
         "name": "Mainz",
         "type": "ORG"
     },
     {
-        "id": 207,
-        "name": "Mainz",
-        "type": "PERSON"
-    },
-    {
-        "id": 208,
+        "id": 186,
         "name": "Uri",
         "type": "PERSON"
     },
     {
-        "id": 209,
-        "name": "La\n",
+        "id": 187,
+        "name": "La",
         "type": "FAC"
     },
     {
-        "id": 210,
+        "id": 188,
         "name": "the Pays de Vaud",
         "type": "ORG"
     },
     {
-        "id": 211,
+        "id": 189,
         "name": "Holland",
         "type": "GPE"
     },
     {
-        "id": 212,
+        "id": 190,
         "name": "Bri",
         "type": "PERSON"
     },
     {
-        "id": 213,
+        "id": 191,
         "name": "Britain",
         "type": "GPE"
     },
     {
-        "id": 214,
+        "id": 192,
         "name": "Tilbury Fort",
         "type": "LOC"
     },
     {
-        "id": 215,
+        "id": 193,
         "name": "Armada",
         "type": "GPE"
     },
     {
-        "id": 216,
+        "id": 194,
         "name": "Woolwich",
         "type": "PERSON"
     },
     {
-        "id": 217,
+        "id": 195,
         "name": "Greenwich",
         "type": "GPE"
     },
     {
-        "id": 218,
-        "name": "St. Paul\u2019s",
+        "id": 196,
+        "name": "St. Paul’s",
         "type": "GPE"
     },
     {
-        "id": 219,
+        "id": 197,
         "name": "nat",
         "type": "ORG"
     },
     {
-        "id": 220,
+        "id": 198,
         "name": "India",
         "type": "GPE"
     },
     {
-        "id": 221,
+        "id": 199,
         "name": "Scotland",
         "type": "GPE"
     },
     {
-        "id": 222,
+        "id": 200,
         "name": "Perth",
         "type": "GPE"
     },
     {
-        "id": 223,
+        "id": 201,
         "name": "Edinburgh",
         "type": "GPE"
     },
     {
-        "id": 224,
+        "id": 202,
         "name": "Windsor",
         "type": "GPE"
     },
     {
-        "id": 225,
+        "id": 203,
         "name": "Oxford",
         "type": "GPE"
     },
     {
-        "id": 226,
+        "id": 204,
         "name": "Matlock",
         "type": "PERSON"
     },
     {
-        "id": 227,
+        "id": 205,
         "name": "Cumberland",
         "type": "ORG"
     },
     {
-        "id": 228,
-        "name": "Charles I.",
+        "id": 206,
+        "name": "Charles I",
         "type": "PERSON"
     },
     {
-        "id": 229,
+        "id": 207,
         "name": "Parliament",
         "type": "ORG"
     },
     {
-        "id": 230,
+        "id": 208,
         "name": "Falkland",
         "type": "ORG"
     },
     {
-        "id": 231,
+        "id": 209,
         "name": "Isis",
         "type": "ORG"
     },
     {
-        "id": 232,
-        "name": "Oxford",
-        "type": "ORG"
-    },
-    {
-        "id": 233,
+        "id": 210,
         "name": "Hampden",
         "type": "ORG"
     },
     {
-        "id": 234,
-        "name": "Servox",
-        "type": "FAC"
-    },
-    {
-        "id": 235,
+        "id": 211,
         "name": "Derby",
         "type": "ORG"
     },
     {
-        "id": 236,
-        "name": "Cumberland",
-        "type": "GPE"
-    },
-    {
-        "id": 237,
+        "id": 212,
         "name": "Westmorland",
         "type": "PERSON"
     },
     {
-        "id": 238,
-        "name": "Edinburgh",
-        "type": "PERSON"
-    },
-    {
-        "id": 239,
-        "name": "Arthur\u2019s Seat",
+        "id": 213,
+        "name": "Arthur’s Seat",
         "type": "ORG"
     },
     {
-        "id": 240,
-        "name": "St. Bernard\u2019s",
+        "id": 214,
+        "name": "St. Bernard’s",
         "type": "ORG"
     },
     {
-        "id": 241,
+        "id": 215,
         "name": "the Pentland Hills",
         "type": "GPE"
     },
     {
-        "id": 242,
+        "id": 216,
         "name": "Coupar",
         "type": "ORG"
     },
     {
-        "id": 243,
+        "id": 217,
         "name": "Tay",
         "type": "ORG"
     },
     {
-        "id": 244,
+        "id": 218,
         "name": "gaunt",
         "type": "PERSON"
     },
     {
-        "id": 245,
+        "id": 219,
         "name": "ldren",
         "type": "PERSON"
     },
     {
-        "id": 246,
+        "id": 220,
         "name": "barren rock",
         "type": "GPE"
     },
     {
-        "id": 247,
+        "id": 221,
         "name": "Atlantic",
         "type": "LOC"
     },
     {
-        "id": 248,
+        "id": 222,
         "name": "inn",
         "type": "PERSON"
     },
     {
-        "id": 249,
+        "id": 223,
         "name": "Kirwin",
         "type": "PERSON"
     },
     {
-        "id": 250,
+        "id": 224,
         "name": "Daniel Nugent",
         "type": "PERSON"
     },
     {
-        "id": 251,
+        "id": 225,
         "name": "Kir",
         "type": "PERSON"
     },
     {
-        "id": 252,
-        "name": "Henry",
-        "type": "GPE"
-    },
-    {
-        "id": 253,
+        "id": 226,
         "name": "the Orkney Islands",
         "type": "LOC"
     },
     {
-        "id": 254,
+        "id": 227,
         "name": "Ireland",
         "type": "GPE"
     },
     {
-        "id": 255,
+        "id": 228,
         "name": "Havre-de-Grace",
         "type": "ORG"
     },
     {
-        "id": 256,
-        "name": "Ingolstadt",
-        "type": "LOC"
-    },
-    {
-        "id": 257,
+        "id": 229,
         "name": "Friend",
         "type": "ORG"
     },
     {
-        "id": 258,
+        "id": 230,
         "name": "Eliz",
         "type": "PERSON"
     },
     {
-        "id": 259,
+        "id": 231,
         "name": "ed adrift",
         "type": "PERSON"
     },
     {
-        "id": 260,
+        "id": 232,
         "name": "Elizabet",
         "type": "ORG"
     },
     {
-        "id": 261,
+        "id": 233,
         "name": "Como",
         "type": "ORG"
     },
     {
-        "id": 262,
+        "id": 234,
         "name": "Villa Lavenza",
         "type": "ORG"
     },
     {
-        "id": 263,
+        "id": 235,
         "name": "Evian",
         "type": "ORG"
     },
     {
-        "id": 264,
-        "name": "inn",
-        "type": "ORG"
-    },
-    {
-        "id": 265,
+        "id": 236,
         "name": "Genevan",
         "type": "PERSON"
     },
     {
-        "id": 266,
-        "name": "ed\nobserver",
+        "id": 237,
+        "name": "ed observer",
         "type": "PERSON"
     },
     {
-        "id": 267,
+        "id": 238,
         "name": "un",
         "type": "ORG"
     },
     {
-        "id": 268,
+        "id": 239,
         "name": "Rhone",
         "type": "ORG"
     },
     {
-        "id": 269,
+        "id": 240,
         "name": "Mediterranean",
         "type": "LOC"
     },
     {
-        "id": 270,
+        "id": 241,
         "name": "the Black Sea",
         "type": "LOC"
     },
     {
-        "id": 271,
+        "id": 242,
         "name": "Tartary",
         "type": "GPE"
     },
     {
-        "id": 272,
-        "name": "the Frozen\nOcean",
+        "id": 243,
+        "name": "the Frozen Ocean",
         "type": "FAC"
     },
     {
-        "id": 273,
+        "id": 244,
         "name": "Behold",
         "type": "PERSON"
     },
     {
-        "id": 274,
+        "id": 245,
         "name": "stein",
         "type": "PERSON"
     },
     {
-        "id": 275,
+        "id": 246,
         "name": "Seek",
         "type": "PERSON"
     },
     {
-        "id": 276,
+        "id": 247,
         "name": "Clerva",
         "type": "PERSON"
     },
     {
-        "id": 277,
+        "id": 248,
         "name": "thou",
         "type": "GPE"
     }

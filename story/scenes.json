@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "title": "The Creature Awakens",
+        "chapter": 5,
+        "query": "Victor Frankenstein creates the Creature and it comes to life.",
+        "summary": "Victor finally succeeds in creating life. Horrified by his success, he watches the Creature awaken.",
+        "choices": [
+            "Run away from the laboratory.",
+            "Stay and speak to the Creature.",
+            "Attempt to destroy the Creature.",
+            "Custom choice..."
+        ]
+    },
+    {
+        "id": 2,
+        "title": "William's Murder",
+        "chapter": 7,
+        "query": "William Frankenstein is murdered.",
+        "summary": "Victor learns his younger brother William has been murdered.",
+        "choices": [
+            "Reveal your suspicions.",
+            "Stay silent.",
+            "Search for the Creature.",
+            "Custom choice..."
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Meeting on the Glacier",
+        "chapter": 10,
+        "query": "Victor meets the Creature in the Alps.",
+        "summary": "The Creature asks Victor to hear his story.",
+        "choices": [
+            "Listen.",
+            "Attack.",
+            "Leave.",
+            "Custom choice..."
+        ]
+    }
+]

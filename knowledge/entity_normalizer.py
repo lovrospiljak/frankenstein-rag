@@ -1,49 +1,38 @@
-# Standard library imports
-import string
+"""
+Simple entity normalizer.
 
-# Words that should not appear at the beginning of entity names
-LEADING_WORDS = {
-    "a",
-    "an",
-    "the",
-}
+Normalizes spaCy entity spans into canonical strings.
+"""
 
 
 def normalize_entity_name(ent):
-    """Normalize an extracted entity name."""
+    """
+    Normalize a spaCy entity.
 
-    words = []
+    Parameters
+    ----------
+    ent : spacy.tokens.Span
 
-    # Keep only meaningful words
-    for token in ent:
+    Returns
+    -------
+    str | None
+    """
 
-        if token.pos_ in {
-            "DET",
-            "PUNCT",
-            "SPACE",
-        }:
-            continue
-
-        words.append(token.text)
-
-    if not words:
+    if ent is None:
         return None
 
-    name = " ".join(words).strip()
-
-    # Remove surrounding punctuation
-    name = name.strip(string.punctuation + " ")
+    name = ent.text.strip()
 
     if not name:
         return None
 
-    tokens = name.split()
+    # Collapse whitespace
+    name = " ".join(name.split())
 
-    # Remove leading determiners
-    while tokens and tokens[0].lower() in LEADING_WORDS:
-        tokens.pop(0)
+    # Remove surrounding punctuation
+    name = name.strip(".,;:!?()[]{}\"'")
 
-    if not tokens:
+    if not name:
         return None
 
-    return " ".join(tokens)
+    return name

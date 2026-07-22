@@ -1,51 +1,111 @@
-# Third-party imports
+"""
+Vector retrieval module.
+
+This module performs semantic retrieval using a FAISS vector index.
+Given a natural language query, it returns the most relevant text
+chunks from the indexed novel.
+"""
+
+from dataclasses import dataclass
+
 import faiss
 import numpy as np
 
-# Local import
 from rag.embeddings import embed_text
 
 
-def load_index(index_path):
-    """Load the FAISS vector index from disk."""
+@dataclass
+class RetrievedChunk:
+    """
+    Represents a retrieved document chunk.
 
-    return faiss.read_index(index_path)
+    Attributes:
+        chunk_id:
+            Unique identifier of the retrieved chunk.
+
+        section_id:
+            Identifier of the original chapter or section.
+
+        text:
+            Retrieved text.
+
+        score:
+            Similarity score returned by the FAISS search.
+    """
+
+    chunk_id: int
+    section_id: int
+    text: str
+    score: float
 
 
-def search(query, index, chunk_lookup, k=5):
-    """Retrieve the k most relevant chunks for a query."""
+class VectorRetriever:
+    """
+    Dense vector retriever based on FAISS.
 
-    # Generate an embedding for the query
-    query_vector = embed_text(query)
+    The retriever converts a natural language query into an embedding,
+    searches the FAISS index for the nearest neighbours, and returns
+    the corresponding text chunks.
+    """
 
-    # Convert the embedding into the format expected by FAISS
-    query_vector = np.array(
-        [query_vector],
-        dtype="float32",
-    )
+    def __init__(self, index: faiss.Index, chunk_lookup: list[dict]):
+        """
+        Initialize the vector retriever.
 
-    # Search the vector index
-    scores, indices = index.search(query_vector, k)
+        Args:
+            index:
+                FAISS index containing chunk embeddings.
 
-    results = []
+            chunk_lookup:
+                List containing metadata for every indexed chunk.
+                The position of each element must correspond to the
+                position of its embedding in the FAISS index.
+        """
 
-    # Process the retrieved chunks
-    for score, idx in zip(scores[0], indices[0]):
+        self.index = index
+        self.chunk_lookup = chunk_lookup
 
-        # Ignore invalid search results
-        if idx == -1:
-            continue
+    def retrieve(self, query: str, k: int = 5) -> list[RetrievedChunk]:
+        """
+        Retrieve the most relevant text chunks for a query.
 
-        chunk = chunk_lookup[idx]
+        Args:
+            query:
+                Natural language search query.
 
-        # Store the retrieved chunk
-        results.append(
-            {
-                "chunk_id": chunk["chunk_id"],
-                "section_id": chunk["section_id"],
-                "text": chunk["text"],
-                "score": float(score),
-            }
-        )
+            k:
+                Number of chunks to retrieve.
 
-    return results
+        Returns:
+            list[RetrievedChunk]:
+                Retrieved chunks ordered by semantic similarity.
+        """
+
+        # Convert the query into an embedding vector.
+        query_vector = embed_text(query)
+        query_vector = np.array([query_vector], dtype="float32")
+
+        # Search the FAISS index for the k nearest neighbours.
+        scores, indices = self.index.search(query_vector, k)
+
+        results: list[RetrievedChunk] = []
+
+        # Convert FAISS search results into RetrievedChunk objects.
+        for score, idx in zip(scores[0], indices[0]):
+
+            # FAISS returns -1 when fewer than k neighbours are found.
+            if idx == -1:
+                continue
+
+            chunk = self.chunk_lookup[idx]
+
+            results.append(
+                RetrievedChunk(
+                    chunk_id=chunk["chunk_id"],
+                    section_id=chunk["section_id"],
+                    text=chunk["text"],
+                    score=float(score),
+                )
+            )
+
+        return results

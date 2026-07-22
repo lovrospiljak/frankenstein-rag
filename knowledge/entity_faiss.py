@@ -98,3 +98,10 @@ def search_entities(
         )
 
     return results
+
+
+def load_lookup(path):
+    """Load entity lookup table."""
+
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
